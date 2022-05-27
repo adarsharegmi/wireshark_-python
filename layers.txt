@@ -1,0 +1,1 @@
+{'layers': [<ETH Layer>, <ARP Layer>], 'frame_info': <FRAME Layer>, 'number': '1', 'interface_captured': None, 'captured_length': '60', 'length': '60', 'sniff_timestamp': '1653681550.186829000'}
