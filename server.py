@@ -7,15 +7,6 @@ import asyncio
 
 app = Sanic("Streaming_dataset")
 
-@app.get('/')
-async def stream_handler(request):
-    async def sample_Streaming_Data(response):
-        await response.write("foo")
-        await response.write("bar")
-        
-    # return stream(sample_Streaming_Data, content_type='text/csv')
-    return text("Hello")
-
 
 def call_data():
     capture = pyshark.LiveCapture(interface=r'Wi-Fi')
